@@ -13,3 +13,31 @@ body {
 .container {
     text-align: left;
 }
+.sobre {
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.spam {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px 1px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+nav span {
+    color: indigo;
+    cursor: pointer;
+    transition: 300ms;
+}
+nav span:hover{
+    text-decoration: underline;
+    color: chartreuse;
+    background-color: blue;
+}
